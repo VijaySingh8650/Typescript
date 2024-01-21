@@ -45,9 +45,9 @@
       "outDir": "./dist" // to store all .js files in another directory
     },
     // Specify which files to include in the compilation.
-    "include": ["src", "variables.ts"],
+    "include": ["src/**/*.tsx"],
     
     // Specify which files to exclude from the compilation.
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules"],
   }
   

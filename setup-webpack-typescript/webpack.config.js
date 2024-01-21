@@ -38,13 +38,24 @@ module.exports = {
         },
       },
 
-
       //rules for css files 
-      //it needed for css file
       {
         test: /.css$/,
         use: ["style-loader", "css-loader"],
       },
+
+      //rules for svg files
+      {
+        test: /\.svg$/,
+        use: ["@svgr/webpack", "url-loader"],
+      },
+
+      // Rule for PNG JPG JPEG files
+      {
+        test: /\.(png|jpg|jpeg|gif|mp3)$/,
+        use: ["url-loader"],
+      },
+
     ],
   },
 };

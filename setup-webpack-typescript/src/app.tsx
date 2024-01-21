@@ -1,17 +1,33 @@
-import React, { useState } from 'react'
-import Count from './count';
+import React from 'react';
 import "./style/app.css";
 
-const App = () => {
-  const [count, setCount] = useState(0);
 
-  const addCount = () =>{
-    setCount(count+1);
-  }
+const App = () => {
+  
   return (
-    <div className='color'>
-      {process.env.REACT_APP_HELLO}
-      <Count count={count} addCount={addCount}/>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+
+        <a
+          className="App-link"
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn TypeScript
+        </a>
+      </header>
     </div>
   )
 }
