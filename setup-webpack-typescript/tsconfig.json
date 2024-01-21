@@ -46,7 +46,6 @@
     },
     // Specify which files to include in the compilation.
     "include": ["src/**/*.tsx"],
-    
     // Specify which files to exclude from the compilation.
     "exclude": ["node_modules"],
   }

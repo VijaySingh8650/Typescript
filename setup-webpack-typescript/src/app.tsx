@@ -18,15 +18,6 @@ const App = () => {
         >
           Learn React
         </a>
-
-        <a
-          className="App-link"
-          href="https://www.typescriptlang.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn TypeScript
-        </a>
       </header>
     </div>
   )
