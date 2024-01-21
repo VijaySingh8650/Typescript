@@ -38,14 +38,9 @@ module.exports = {
         },
       },
 
-      {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
 
-
-      //rules for css files
+      //rules for css files 
+      //it needed for css file
       {
         test: /.css$/,
         use: ["style-loader", "css-loader"],
