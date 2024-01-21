@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+      // Target version of ECMAScript (JavaScript) to compile to.
+      "target": "es2022",
+  
+      // The libraries to include in the compilation process.
+      "lib": ["dom", "dom.iterable", "esnext"],
+  
+      // Specify JSX as the type to support React JSX syntax.
+      "jsx": "react",
+  
+      // Specify the module system for code generation.
+      "module": "esnext",
+  
+      // Specify how modules are resolved.
+      "moduleResolution": "node",
+  
+      // Allows using `import x from "y"` syntax without `allowSyntheticDefaultImports`.
+      "esModuleInterop": true,
+  
+      // Skip type checking of declaration files.
+      "skipLibCheck": true,
+  
+      // Enforce a consistent casing in file names.
+      "forceConsistentCasingInFileNames": true,
+  
+      // Report errors for unreachable code in functions.
+      "noImplicitReturns": true,
+  
+      // Report error when not all code paths in function return a value.
+      "strict": true,
+  
+      // Enable strict null checks.
+      "strictNullChecks": true,
+  
+      // Disable strict checking of property initialization in classes.
+      "strictPropertyInitialization": false,
+  
+      // Remove all comments from output.
+      "removeComments": true,
+  
+      // Preserve const enums during compilation.
+      "preserveConstEnums": true,
+
+      "outDir": "./dist" // to store all .js files in another directory
+    },
+    // Specify which files to include in the compilation.
+    "include": ["src", "variables.ts"],
+    
+    // Specify which files to exclude from the compilation.
+    "exclude": ["node_modules"]
+  }
+  
