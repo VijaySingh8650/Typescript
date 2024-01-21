@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './button';
 
 type propsType = {
     count: number;
@@ -9,7 +10,7 @@ const Count:React.FC<propsType> = (props) => {
   return (
     <div>
        <p>{props.count}</p>
-       <button onClick={props.addCount}>Click Me</button>
+       <Button addCount={props.addCount}>Click ME</Button>
     </div>
   )
 }
