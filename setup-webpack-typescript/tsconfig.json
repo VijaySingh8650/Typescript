@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+
+      "types": ["./src/global.d.ts"],
       // Target version of ECMAScript (JavaScript) to compile to.
       "target": "es2022",
   
